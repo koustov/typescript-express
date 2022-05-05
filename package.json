@@ -1,0 +1,26 @@
+{
+	"name": "typescript_express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"serve": "nodemon app.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "koustov"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/node": "^17.0.31",
+		"nodemon": "^2.0.16",
+		"ts-node": "^10.7.0",
+		"typescript": "^4.6.4"
+	},
+	"dependencies": {
+		"express": "^4.18.1"
+	}
+}
